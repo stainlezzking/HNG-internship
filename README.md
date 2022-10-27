@@ -2,14 +2,11 @@
 
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="./hng.jpg" alt="Logo" width="70">
-  </a>
-
   <h3 align="center">HNG INTERNSHIP</h3>
 
   <p align="center">
-    Guide about this project 👇
+    Backend Task stage 1 👇
     <br />
     <br />
     ·
@@ -18,14 +15,8 @@
     <a href="https://www.linkedin.com/in/stainlezzkin">linkedin</a>
 </div>
 
-#### Branches
-* tasks are grouped in branches
-* Backend-task starts with the backend-<%= stage %>
-* Frontend-task starts with the frontend-<%= stage %>
+### Task 
 
-<br />
-<br />
-
-```
-Let's gooooooooooo
-```
+<div align="center">
+    <img src="./backend-stage1.jpg" alt="HNG task backed stage 1 2022">
+</div>
