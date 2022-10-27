@@ -10,7 +10,7 @@ const Footer = () => (
         <small>
             HNG Internship 9 frontend Task
         </small>
-        <img src={pic} alt="" srcset=""/>
+        <img src={pic} alt=""/>
     </footer>
 )
  
