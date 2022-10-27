@@ -22,4 +22,4 @@
 <br/>
 <br />
 
-<a href="https://hng-internship-nine.vercel.app/">temporarily hosted on</a>
+<div align="center"><a href="https://hng-internship-nine.vercel.app/">temporarily hosted on</a></div>
