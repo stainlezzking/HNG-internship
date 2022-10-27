@@ -1,6 +1,7 @@
 import './App.css'
 import Profile from './components/profile'
 import Links from './components/links'
+import Footer from './components/footer'
 import github from './assets/github-svg.svg'
 import slack from './assets/slack-svg.svg'
 
@@ -22,6 +23,7 @@ function App() {
           </a>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
