@@ -5,6 +5,7 @@ const Profile = () => (
         alt="Profile picture for this link_tree account" 
         id="profile_img" />
         <h3 className="display_name"> Chukwuebuka Stanley </h3>
+        <p id="slack" hidden={true}> stilkinging</p>
     </>
 )
  
