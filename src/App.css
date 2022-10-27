@@ -27,3 +27,12 @@ body {
   margin: 1rem 0;
   color: inherit;
 }
+.cs_my-2{
+  margin-block: 2rem;
+}
+.socials{
+  text-align: center;
+}
+.socials img{
+  margin: 0 .4rem;
+}
