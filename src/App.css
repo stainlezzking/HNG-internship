@@ -15,7 +15,7 @@ body {
 }
 .back img{
   transform:  scalex(-1);
-  border: 1px solid #94969c;
+  border: 1px dashed #94969c;
   border-radius: 50%;
   padding: 5px;
 }
@@ -73,6 +73,12 @@ footer * {
   margin: 0;
 }
 
+.back .img1{
+  display: none;
+}
+.back .img2{
+  display: inline;
+}
 
 @-webkit-keyframes show-shadow {
   0% {
@@ -102,5 +108,11 @@ footer * {
     flex-direction: column;
     gap  : 10px;
     align-items: start;
+  }
+  .back .img2{
+    display: none;
+  }
+  .back .img1{
+    display: inline;
   }
 }

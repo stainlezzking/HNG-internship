@@ -5,6 +5,7 @@ import Footer from './components/footer'
 import github from './assets/github-svg.svg'
 import slack from './assets/slack-svg.svg'
 import back from './assets/reply.svg'
+import dot from './assets/dot.svg'
 
 const links = [
     {id : "twitter", title : "stilkinging", href : "https://twitter.com/stilkinging"},
@@ -19,7 +20,8 @@ function App() {
   return (
     <div className="App">
       <a href="#" className="back">
-        <img src={back}  width="20px"/>
+        <img src={back} className="img2"  width="20px"/>
+        <img src={dot} className="img1"  width="20px"/>
       </a>
       <Profile />
       <div className="cs_my-2">
