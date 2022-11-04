@@ -5,7 +5,7 @@ var cors = require('cors')
 app.use(cors())
 app.use(express.json())
 
-const operations = {addition : "+", subtraction : "-" ,multiplication : "*", add : "+", subtract : "-", multiply : "*", sum : "+", minus : "-",difference : "-"}
+const operations = {addition : "+", subtraction : "-" ,multiplication : "*", add : "+", subtract : "-", multiply : "*", sum : "+", minus : "-", product : "*", difference : "-"}
 
 const response = function(res,result, operation_type){
     res.status(200)
