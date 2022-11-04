@@ -15,7 +15,7 @@ const response = function(res,result, operation_type){
 app.get("*", (req,res)=>res.json({ "slackUsername": 'stilkinging', "backend": true, "age": 22, "bio": "The greatest software developer in the making" }))
 
 app.post("*",function(req,res){
-   const {x,y,operation_type} = req.body
+   let {x,y,operation_type} = req.body
    if(operations[operation_type]) return response(res,  eval(x + operations[operation_type] + y) ,operation_type)
     // if +,-, * is submitted
     if(operation_type.trim().length == 1) return response(res, eval(x + operation_type + y), operation_type)
@@ -28,6 +28,10 @@ app.post("*",function(req,res){
                 operation = { operation : operations[prop], prop}
             }
         })
+    if(isNaN(Number(x)) || isNaN(Number(y))){
+        x = Number(operation_type.split("-")[1].split("and")[0])
+        y = Number(operation_type.split("-")[1].split("and")[1])
+    }
     if(operation) return response(res, eval(x + operation.operation + y), operation.prop)
     let err = "it seems your operation_type deos not contain the word multiplication, addition, add, subtract, multiply difference or minus"
     return response(res, err , operation_type)
