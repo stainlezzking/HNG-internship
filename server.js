@@ -12,7 +12,7 @@ const response = function(res,result, operation_type){
     .json({ slackUsername: "stilkinging", result, operation_type})
 }
 
-app.get("*", (req,res)=>res.json({ "slackUsername": 'stilkinging', "backend": true, "age": 22, "bio": "The greatest software developer in the making" })))
+app.get("*", (req,res)=>res.json({ "slackUsername": 'stilkinging', "backend": true, "age": 22, "bio": "The greatest software developer in the making" }))
 
 app.post("*",function(req,res){
    const {x,y,operation_type} = req.body
