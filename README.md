@@ -6,9 +6,9 @@
 </center>
 
 Scheme
-*  [What this API does](doc:#do) </a>
-* <a href="#task"> The Task </a>
-* <a href="#task"> Temporarily hosted on </a>
+*  What this API does
+* The Task
+* <a href="https://hng-backend2.up.railway.app/"> Temporarily hosted on </a>
 
 <h2 id="#do"> What this task does</h2>
  Performs Arithmetic calculations
